@@ -1,0 +1,93 @@
+
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+	[class*="fontawesome-"]:before {
+	  font-family: 'FontAwesome', sans-serif;
+	}
+
+	body{
+		
+		color:#111;
+		font-family:arial;
+        height, width: 100%;
+        
+	}
+    
+.radioco-image{
+    height: 500px;
+    float: right;
+    margin-right: -10px;
+
+}
+
+#background {
+    background-image: url(images/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif);
+    background-repeat: repeat;
+    position: fixed;
+    top: 0;
+    z-index: -1000;
+    margin: -10px;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+}
+
+
+.radioco-nowPlaying {
+    position:relative;
+    top: 0vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:black;
+    font-size: 3vw;
+    background: #b3f6f9;
+    width:100%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+
+	.radioco-playButton-playing:before{
+		font-family: 'FontAwesome', sans-serif;
+	  content: "\f04b";
+	}
+
+	.radioco-playButton-paused:before{
+		font-family: 'FontAwesome', sans-serif;
+	  content:"\f04c";
+	}
+
+	.radioco-playButton{
+    position:relative;
+        margin-top: 200px;
+        
+
+    color:#b3f6f9;
+    font-size:100px;
+    
+	}
+
+	.radioco-playButton:active{
+	  color:darkblue;
+	}
+
+	.radioco-playButton-playing{
+	  font-family: "controls";
+	  position: relative;
+      z-index: 100;
+      float: right;
+      margin-top: 40%;
+
+	  font-size:150%;
+	}
+
+	.radioco-playButton-paused{
+	  font-family: "controls";
+	  position: absolute;
+        margin-top: 200px;
+	  font-size:150%;
+	}
+
+
