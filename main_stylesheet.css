@@ -1,0 +1,86 @@
+
+    
+body {
+	background-image: none;
+	background-color: black;
+}
+
+
+#navbar {
+	margin: auto;
+	height: 42px;
+	width:98%;
+	border: 5px groove black;
+	background-color: black;
+	position: fixed;
+  	}
+
+#navtable {
+  	 width: 100%;
+   	 color: #FCFCF2;
+   	 padding: 10px;
+   	 font-style: oblique;
+   	 font-size: 1.2em;
+   	 font-family: Impact, Merienda;
+  
+}
+
+#navlogo {
+	width: 130px;
+	height: 22px;
+}
+
+.thlogo {
+    width:130px;
+}
+
+.filler {
+    width:2%;   
+}
+
+#column {
+	background-image: url("images/sweat_column.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-size: 150px 600px;
+	border-left: 5px solid black;
+	width: 150px;
+	height: 100%;
+	color: white;
+	}
+
+.social {
+    text-align:right;
+    
+    
+}
+
+th a:link {
+	display:block;
+	color: #FCFCF2;
+	text-decoration: none;
+}
+
+th a:visited {
+    color: #FCFCF2;
+}
+
+th a:hover {
+    background-color: #F9C7C9;
+    text-decoration: line-through;
+    color: black;
+}  	
+
+th a:active {
+	 background-color: #6735FC;
+	 color: #F9C7C9;
+}
+
+.notready {
+    color: gray;
+}
+
+/* #player {
+	padding: 25px
+	} moved to player.html */
