@@ -5,37 +5,37 @@
 	  font-family: 'FontAwesome', sans-serif;
 	}
 
-.radioco-image{
-    float: right;
-    max-height: 30%;
-
+body {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
 #background {
-    background-image: url(images/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif);
+/*    background-image: url(images/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif);*/
+    background: linear-gradient(to bottom, red, #c4daf1);
     background-repeat: repeat;
     position: fixed;
-    top: 0;
+    opacity: .7;
     z-index: -1000;
-    margin: -10px;
     height: 100%;
     width: 100%;
-    filter: blur(10px);
+    filter: blur(40px);
 }
 
 
 .radioco-nowPlaying {
-    position: fixed;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 3vw;
-    background: #b3f6f9;
+    color: white;
     width:100%;
     text-align: center;
     
 }
 
-
+/* BUTTON */
 
 	.radioco-playButton-playing:before{
 		font-family: 'FontAwesome', sans-serif;
@@ -57,21 +57,62 @@
 	}
 
 .radioco-playButton-playing{
+    position: relative;
     font-family: "controls";
     font-size: 10vw;
+    float: left;
+
 }
 
 .radioco-playButton-paused{
+    position: relative;
     font-family: "controls";
-    font-size:150%;
+    font-size:10vw;
+    float: left;
+}
+
+
+/* IMAGE */
+.radioco-image{
+    position: relative;
+    float: right;
+    width: 100%;
+
+}
+
+#controller .radioco-image {
+    display: none;
+}
+
+#musicimage .radioco-playButton-playing {
+    display: none;
+}
+
+#musicimage .radioco-nowPlaying {
+    display: none;
+}
+
+#musicimage .radioco-playButton-paused {
+    display: none;
 }
 
 /* ******* code ******* */
-
-#controller {
-    display: block;
-    width: 75%;
-    margin: auto;
-    height: 100%;
+#container {
+    width: 100%;
+    height: 70vw;
+    overflow: hidden;
     
+}
+#controller {
+    float: left;
+    width: 30%;
+    height: 70vw; 
+    padding: 2%;
+}
+
+#musicimage {
+    float: right;
+    width: 65%;
+    height: 100vh;  
+    overflow: hidden;
 }
