@@ -5,18 +5,9 @@
 	  font-family: 'FontAwesome', sans-serif;
 	}
 
-	body{
-		
-		color:#111;
-		font-family:arial;
-        height, width: 100%;
-        
-	}
-    
 .radioco-image{
-    height: 500px;
     float: right;
-    margin-right: -10px;
+    max-height: 30%;
 
 }
 
@@ -34,15 +25,12 @@
 
 
 .radioco-nowPlaying {
-    position:relative;
-    top: 0vh;
+    position: fixed;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color:black;
     font-size: 3vw;
     background: #b3f6f9;
     width:100%;
-    margin-bottom: 20px;
     text-align: center;
     
 }
@@ -59,35 +47,31 @@
 	  content:"\f04c";
 	}
 
-	.radioco-playButton{
-    position:relative;
-        margin-top: 200px;
-        
-
+.radioco-playButton{
     color:#b3f6f9;
     font-size:100px;
-    
-	}
+}
 
 	.radioco-playButton:active{
 	  color:darkblue;
 	}
 
-	.radioco-playButton-playing{
-	  font-family: "controls";
-	  position: relative;
-      z-index: 100;
-      float: right;
-      margin-top: 40%;
+.radioco-playButton-playing{
+    font-family: "controls";
+    font-size: 10vw;
+}
 
-	  font-size:150%;
-	}
+.radioco-playButton-paused{
+    font-family: "controls";
+    font-size:150%;
+}
 
-	.radioco-playButton-paused{
-	  font-family: "controls";
-	  position: absolute;
-        margin-top: 200px;
-	  font-size:150%;
-	}
+/* ******* code ******* */
 
-
+#controller {
+    display: block;
+    width: 75%;
+    margin: auto;
+    height: 100%;
+    
+}
