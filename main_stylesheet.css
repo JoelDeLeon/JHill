@@ -2,16 +2,37 @@ body,html {
 	
      width:100%;
     height:100%;
-	
+
+    
+}
+
+html{
+    background: #d12229;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 
 
 
 #everything{
-    background:linear-gradient(to bottom, red, #c4daf1);
-    display: inline-block;
+    
+   height:80%;
+}
+
+#everythingelse{
+    margin-top: 70%;
    height:100%;
+    width:100%;
+   
+}
+
+canvas{
+    position:fixed;
+    bottom:0px;
+    z-index:-1;
+   
+
 }
 
 #navbar {
@@ -37,7 +58,7 @@ body,html {
 #navlogo {
     display: inline-block;
     width:100%;
-    margin-top:30vh;
+    margin-top:20vh;
 	
 }
 
@@ -75,7 +96,7 @@ body,html {
     
 }
 th{
-     font-weight:300;
+     font-weight:600;
 
 }
 
