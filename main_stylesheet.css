@@ -1,42 +1,59 @@
-body {
-	background-image: none;
-	background-color: black;
+body,html {
+	
+     width:100%;
+    height:100%;
+	
 }
 
 
+
+
+#everything{
+    background:linear-gradient(to bottom, red, #c4daf1);
+    display: inline-block;
+   height:100%;
+}
+
 #navbar {
 	margin: auto;
-	height: 42px;
-	width:98%;
-	border: 5px groove black;
-	background-color: black;
+	height: 100%;
+	width:100%;
 	position: fixed;
+     display: inline-block;
+    
   	}
 
 #navtable {
   	 width: 100%;
    	 color: #FCFCF2;
-   	 padding: 10px;
-   	 font-style: oblique;
+   	 padding: 20px 10px;
    	 font-size: 1.2em;
    	 font-family: "Roboto", sans-serif;
-    font-weight:700;
-  
+    
+   
 }
+    
 
 #navlogo {
-	width: 130px;
-	height: 22px;
+    display: inline-block;
+    width:100%;
+    margin-top:30vh;
+	
+}
+
+.fb-like{
+    display: inline-block;
+    
 }
 
 .thlogo {
     width:130px;
+    
 }
 
-.filler {
-    width:2%;   
-}
 
+
+/*
 #column {
 	background-image: url("images/sweat_column.jpg");
 	background-attachment: fixed;
@@ -48,25 +65,33 @@ body {
 	height: 100%;
 	color: white;
 	}
+*/
+
+
 
 .social {
     text-align:right;
     
     
 }
+th{
+     font-weight:300;
+
+}
 
 th a:link {
 	display:block;
-	color: #FCFCF2;
+	color: white;
 	text-decoration: none;
+    
 }
 
 th a:visited {
-    color: #FCFCF2;
+    color: white;
 }
 
 th a:hover {
-    background-color: #F9C7C9;
+    background-color: red;
     text-decoration: line-through;
     color: black;
 }  	
@@ -77,8 +102,23 @@ th a:active {
 }
 
 .notready {
-    color: gray;
+    color:#222c6c;
 }
+
+
+
+.fb-page {
+    
+    
+    
+}
+.sc-feed {
+  
+}
+.sc-embed {
+ 
+}
+
 
 /* #player {
 	padding: 25px

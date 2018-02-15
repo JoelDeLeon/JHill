@@ -5,38 +5,16 @@
         <title>Sweat.FM</title>
     <link rel="stylesheet" type="text/css" href="main_stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
-<style>
-.pageContent {
-    position:absolute;
-    margin-top:80px;
-    margin-left:175px;
-}
-.fb-page {
-    float:left;
-    width:400px;
-    margin-top:0px;
-    padding-left:25px;
-    padding-right:150px;
-    padding-bottom:15px;
-    
-}
-.sc-feed {
-    float:left;
-    margin-top:0px;
-    padding-right:10px;
-    margin-left:0px;
-}
-.sc-embed {
-    padding-top:10px;
-    padding-bottom:10px;
-    width:500px;
-    height:125px;
-}
-</style>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+
 </head>
     
 <body>
+
+<div id="everything">
+    
 <div id="fb-root"></div>
+<!--
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -44,6 +22,7 @@
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+-->
 
 	<div id="navbar">
 		<table id="navtable">
@@ -51,26 +30,27 @@
 				<th><a href="#" onclick="window.open('player.html', 'Sweat.FM','toolbar=no,width=320,height=430');">Listen Live</a></th>
 				<th><a href="schedule.html">Schedule</a></th>
 				<th class="notready">Shows</th>
-				<th class="filler"></th>
-				<th class="thlogo"><a href="index.html"><img id="navlogo" src="images/sweat_logo.jpg"></a></th>
-				<th class="filler"></th>
+				
+			
+				
 				<th class="notready">Podcasts</th>
 				<th class="notready">Contact</th>
 				<th class="social">
-				    <div class="fb-like" 
-				    data-href="https://facebook.com/sweat.fm" 
-				    data-width="30" 
-				    data-layout="button_count" 
-				    data-action="like" 
-				    data-size="small" 
-				    data-show-faces="false" 
-				    data-share="true"></div>
+				    
 				</th>
 			</tr>
 		</table>
 	</div>
-	<div id="column" style="position:fixed;top:70px;left:3px;margin:0px 0px 0px 5px;"></div>
-	<div class="pageContent">
+    
+    
+    
+    <div id="logoContainer">
+    
+    	<img id="navlogo" src="images/ocean-gutter2%20edit%201%20with%20url.png">
+        
+    </div>
+<!--
+    <div class="pageContent">
 	
 	
 	<div class="sc-feed" style="max-height:100%;overflow:auto;border:none">
@@ -85,11 +65,24 @@
 	    data-hide-cover="true" 
 	    data-show-facepile="false">
 	    <blockquote cite="https://www.facebook.com/SWEAT.FM/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SWEAT.FM/">SWEAT.FM</a></blockquote>
-	 </div>
+	 
 	</div>
+	</div>
+-->
+    
+    <div class="fb-like" 
+				    data-href="https://facebook.com/sweat.fm" 
+				    data-width="30" 
+				    data-layout="button_count" 
+				    data-action="like" 
+				    data-size="small" 
+				    data-show-faces="false" 
+				    data-share="true"></div>
+    
 	
 	
 	
+	</div>
  
 </body>
 </html>
