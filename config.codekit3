@@ -9,12 +9,50 @@
 	],
 "creatorBuild": "26268",
 "files": {
+	"\/backgroundApp.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/backgroundApp-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/CommitTest.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/CommitTest.txt",
 		"oF": 0
+		},
+	"\/images\/logoblue.png": {
+		"ft": 32768,
+		"iS": 30471,
+		"oA": 0,
+		"oAP": "\/build\/images\/logoblue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logowhite.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/logowhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ocean-gutter2 edit 1 with url.png": {
 		"ft": 32768,
@@ -81,6 +119,26 @@
 		"oAP": "\/build\/main_stylesheet-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/p5.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/p5-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/p5.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/p5.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/player.css": {
 		"aP": 1,
