@@ -13,11 +13,11 @@ body {
 }
 
 #background {
-    background-image: url(https://78.media.tumblr.com/39a6f3a974d48d70d4e828de6edbfa5e/tumblr_opjy0qhjll1vsjcxvo1_540.gif);
+    background-image: url(images/streambackground.gif);
     background-repeat:round;
     position: fixed;
     opacity: .8;
-    z-index: -1000;
+    z-index: -1;
     height: 100%;
     width: 100%;
     filter: blur(0.5px);
@@ -79,6 +79,29 @@ body {
 
 }
 
+.radioco-volume {
+    width: 100%;
+    margin-top: 5%;
+    height: 2vw;
+}
+
+.radioco-volume::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.radioco-volume::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
 #controller .radioco-image {
     display: none;
 }
@@ -92,6 +115,10 @@ body {
 }
 
 #musicimage .radioco-playButton-paused {
+    display: none;
+}
+
+#musicimage .radioco-volume{
     display: none;
 }
 
