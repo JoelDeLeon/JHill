@@ -6,22 +6,21 @@
 	}
 
 body {
-    background-color: white;
+    background-color: blue;
     height: 100%;
     margin: 0;
     overflow: hidden;
 }
 
 #background {
-/*    background-image: url(images/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif);*/
-    background: linear-gradient(to bottom, red, #c4daf1);
-    background-repeat: repeat;
+    background-image: url(https://78.media.tumblr.com/39a6f3a974d48d70d4e828de6edbfa5e/tumblr_opjy0qhjll1vsjcxvo1_540.gif);
+    background-repeat:round;
     position: fixed;
-    opacity: .7;
+    opacity: .8;
     z-index: -1000;
     height: 100%;
     width: 100%;
-    filter: blur(40px);
+    filter: blur(0.5px);
 }
 
 
@@ -30,8 +29,8 @@ body {
     font-weight: 300;
     font-size: 3vw;
     color: white;
-    width:100%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
     
 }
 
@@ -48,18 +47,18 @@ body {
 	}
 
 .radioco-playButton{
-    color:#b3f6f9;
+    color:#b60000;
     font-size:100px;
 }
 
 	.radioco-playButton:active{
-	  color:darkblue;
+	  color:darkred;
 	}
 
 .radioco-playButton-playing{
     position: relative;
     font-family: "controls";
-    font-size: 10vw;
+    font-size: 14vw;
     float: left;
 
 }
@@ -67,7 +66,7 @@ body {
 .radioco-playButton-paused{
     position: relative;
     font-family: "controls";
-    font-size:10vw;
+    font-size:14vw;
     float: left;
 }
 
