@@ -1,16 +1,26 @@
 body,html {
 	
-   
+     width:100%;
+    height:100%;
 	
 }
 
+
+
+
+#everything{
+    background:linear-gradient(to bottom, red, #c4daf1);
+    display: inline-block;
+   height:100%;
+}
 
 #navbar {
 	margin: auto;
 	height: 100%;
 	width:100%;
 	position: fixed;
-    background:linear-gradient(to bottom, red, #c4daf1);
+     display: inline-block;
+    
   	}
 
 #navtable {
@@ -22,22 +32,17 @@ body,html {
     
    
 }
-
-#feeds{
-    margin-top:100vh;
-}
+    
 
 #navlogo {
-	position:absolute;
+    display: inline-block;
     width:100%;
-    top:30%;
+    margin-top:30vh;
 	
 }
 
 .fb-like{
-    position:fixed;
-    top:0px;
-    left:0px;
+    display: inline-block;
     
 }
 
@@ -61,6 +66,8 @@ body,html {
 	color: white;
 	}
 */
+
+
 
 .social {
     text-align:right;
@@ -97,6 +104,21 @@ th a:active {
 .notready {
     color:#222c6c;
 }
+
+
+
+.fb-page {
+    
+    
+    
+}
+.sc-feed {
+  
+}
+.sc-embed {
+ 
+}
+
 
 /* #player {
 	padding: 25px
