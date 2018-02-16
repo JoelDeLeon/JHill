@@ -5,6 +5,10 @@
 	  font-family: 'FontAwesome', sans-serif;
 	}
 
+html {
+    background-image: url(images/streambackground.gif);
+}
+
 body {
     background-color: blue;
     height: 100%;
@@ -17,7 +21,6 @@ body {
     background-repeat:round;
     position: fixed;
     opacity: .8;
-    z-index: -1;
     height: 100%;
     width: 100%;
     filter: blur(0.5px);
@@ -26,12 +29,10 @@ body {
 
 .radioco-nowPlaying {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 3vw;
-    color: white;
-    width: 100%;
-    text-align: left;
-    
+    font-weight: 700;
+    font-size: 4vw;
+    color: #fff;
+    z-index: 2;
 }
 
 /* BUTTON */
@@ -79,27 +80,6 @@ body {
 
 }
 
-.radioco-volume {
-    width: 100%;
-    margin-top: 5%;
-    height: 2vw;
-}
-
-.radioco-volume::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-}
-
-.radioco-volume::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-}
 
 
 #controller .radioco-image {
@@ -115,10 +95,6 @@ body {
 }
 
 #musicimage .radioco-playButton-paused {
-    display: none;
-}
-
-#musicimage .radioco-volume{
     display: none;
 }
 

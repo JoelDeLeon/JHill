@@ -2,7 +2,6 @@ body,html {
 	
      width:100%;
     height:100%;
-
     
 }
 
@@ -10,6 +9,7 @@ html{
     background: #d12229;
     background-attachment: fixed;
     background-size: contain;
+        background-image: url(https://78.media.tumblr.com/b2dca6d052db5aae5e4d0a90e07f8bdc/tumblr_o73ra05X0i1vsfspjo1_500.gif);
 }
 
 
@@ -144,3 +144,13 @@ th a:active {
 /* #player {
 	padding: 25px
 	} moved to player.html */
+
+
+
+#logoContainer #playbutton {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    
+    
+}
