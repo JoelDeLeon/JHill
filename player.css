@@ -13,11 +13,11 @@ body {
 }
 
 #background {
-    background-image: url(https://78.media.tumblr.com/39a6f3a974d48d70d4e828de6edbfa5e/tumblr_opjy0qhjll1vsjcxvo1_540.gif);
+    background-image: url("https://78.media.tumblr.com/39a6f3a974d48d70d4e828de6edbfa5e/tumblr_opjy0qhjll1vsjcxvo1_540.gif");
     background-repeat:round;
     position: fixed;
     opacity: .8;
-    z-index: -1000;
+    z-index: -1;
     height: 100%;
     width: 100%;
     filter: blur(0.5px);

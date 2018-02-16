@@ -140,23 +140,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/player.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/player-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/player.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/player.html",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,

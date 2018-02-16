@@ -7,9 +7,9 @@ body,html {
 }
 
 html{
-    background: #d12229;
+   background: black;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
 
@@ -29,7 +29,8 @@ html{
 
 canvas{
     position:fixed;
-    bottom:0px;
+    bottom:-30px;
+    left:-30px;
     z-index:-1;
    
 
@@ -102,13 +103,13 @@ th{
 
 th a:link {
 	display:block;
-	color: white;
+	color: #8AADDB;
 	text-decoration: none;
     
 }
 
 th a:visited {
-    color: white;
+    color: #8AADDB;
 }
 
 th a:hover {
@@ -119,7 +120,7 @@ th a:hover {
 
 th a:active {
 	 background-color: #6735FC;
-	 color: #F9C7C9;
+	 color: #8AADDB;
 }
 
 .notready {
